@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+}
+.top_bar{
+    background-color: palevioletred;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.top_bar > a{
+  text-decoration: none;
+  margin: 25px;
+}
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 75px 75px 150px 75px 75px 75px 75px 75px 75px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+                        "logo logo logo logo facebook"
+                        "logo logo logo logo twitter"
+                        "logo logo logo logo mustache"
+                        "animals animals joker clown wigs"
+                        "musical super super candy hamilton"
+                        "musical santa lady lady shipping"
+                        "props santa halloween1 halloween2 goblins"
+                        "mask stars stars . footer";
+}
+.container>div{
+    border: 4px solid blue;
+}
+.logo{
+    grid-area: logo;
+}
+.facebook{
+    grid-area: facebook;
+}
+.twitter{
+    grid-area: twitter;
+}
+.mustache{
+    grid-area: mustache;
+}
+.animals{
+    grid-area: animals;
+}
+.joker{
+    grid-area: joker;
+}
+.clown{
+    grid-area: clown;
+}
+.wigs{
+    grid-area: wigs;
+}
+.musical{
+    grid-area: musical;
+}
+.superHero{
+    grid-area: superHero;
+}
+.candy{
+    grid-area: candy;
+}
+.hamilton{
+    grid-area: hamilton;
+}
+.santa{
+    grid-area: santa;
+}
+.lady{
+    grid-area: lady;
+}
+.shipping{
+    grid-area: shipping;
+}
+.props{
+    grid-area: props;
+}
+.halloween1{
+    grid-area: halloween1;
+}
+.halloween2{
+    grid-area: halloween2;
+}
+.goblins{
+    grid-area: goblins;
+}
+.mask{
+    grid-area: mask;
+}
+.stars{
+    grid-area: stars;
+}
