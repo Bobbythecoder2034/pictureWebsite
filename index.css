@@ -15,6 +15,8 @@
     gap: 5px;
     grid-template-rows: 75px 75px 150px 380px 250px 150px 150px 150px;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-right: 25px;
+    
     grid-template-areas: 
                         "logo logo logo logo facebook"
                         "logo logo logo logo twitter"
@@ -24,9 +26,6 @@
                         "musical santa lady lady shipping"
                         "props santa halloween1 halloween2 goblins"
                         "mask stars stars . footer";
-}
-.container>div{
-    border: 4px solid blue;
 }
 .logo{
     grid-area: logo;
@@ -93,7 +92,10 @@
 }
 .footer{
     grid-area: footer;
-    justify-content: end;
+    text-align-last: end;
     align-content: end;
     color: brown;
+}
+.all{
+    border: 5px solid grey;
 }
