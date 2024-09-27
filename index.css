@@ -13,14 +13,14 @@
 .container{
     display: grid;
     gap: 5px;
-    grid-template-rows: 75px 75px 150px 75px 75px 75px 75px 75px 75px;
+    grid-template-rows: 75px 75px 150px 380px 250px 150px 150px 150px;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-areas: 
                         "logo logo logo logo facebook"
                         "logo logo logo logo twitter"
                         "logo logo logo logo mustache"
                         "animals animals joker clown wigs"
-                        "musical super super candy hamilton"
+                        "musical superHero superHero candy hamilton"
                         "musical santa lady lady shipping"
                         "props santa halloween1 halloween2 goblins"
                         "mask stars stars . footer";
@@ -90,4 +90,10 @@
 }
 .stars{
     grid-area: stars;
+}
+.footer{
+    grid-area: footer;
+    justify-content: end;
+    align-content: end;
+    color: brown;
 }
